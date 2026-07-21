@@ -42,7 +42,7 @@ endpoints via environment variables.
 
 ## Running
 
-The pipeline steps are documented in [CLAUDE.md](CLAUDE.md). In brief: point the
+Point the
 runtime at a Qwen/vLLM endpoint and the Agent Tool Server via environment
 variables, then run the `work/run_*.py` drivers in order. A stub backend runs
 the same code paths offline when `OPENAI_BASE_URL` is unset.
