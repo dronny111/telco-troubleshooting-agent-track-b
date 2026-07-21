@@ -1,6 +1,6 @@
 # Telco Troubleshooting Agent — Track B (IP Networking)
 
-A participant's solution stack for **Track B** of the ITU *Telco Troubleshooting
+Solution stack for **Track B** of the ITU *Telco Troubleshooting
 and Optimization Agentic Challenge* (Phase 2). The agent diagnoses faults on a
 40-node multi-vendor campus network by driving **Qwen3.5-35B-A3B** (the
 competition's mandatory base model) through a tool-calling loop against the
