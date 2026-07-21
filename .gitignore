@@ -1,0 +1,36 @@
+# ---- secrets (never commit) ----
+.env
+.env.*
+!deploy/env.example
+
+# ---- ITU competition dataset — DO NOT DISTRIBUTE (organizer restriction) ----
+telco_data/
+*.zip
+
+# ---- benchmark-derived predictions / submissions ----
+past_subs/
+
+# ---- generated data artifacts (this is a code repo) ----
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.pkl
+*.log
+*.bak
+*.bak_*
+*.flag
+work/INFERENCE_DONE.txt
+
+# ---- python / tooling ----
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# ---- os / editor ----
+.DS_Store
+.idea/
+.vscode/

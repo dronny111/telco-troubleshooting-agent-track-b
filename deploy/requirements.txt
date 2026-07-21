@@ -1,0 +1,9 @@
+# vLLM server. Pin to a version that supports Qwen3.5 hybrid (Gated
+# DeltaNet + MoE) and OpenAI-compat tool calling. 0.11.x is the floor we
+# tested against; bump only if Qwen3.5-specific fixes land in a newer
+# release.
+vllm>=0.11.0,<0.13
+
+# Smoke-test client (small footprint; no torch dependency).
+requests>=2.31
+openai>=1.40
